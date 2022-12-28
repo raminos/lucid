@@ -58,5 +58,8 @@
   "files": [
     "dist/**/*"
   ],
+  "release": {
+    "branches": ["main"]
+  },
   "dependencies": {}
 }
