@@ -1,10 +1,12 @@
 {
   "name": "@raminos/lucid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JS logger that logs the whole prototype chain of an object",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
+  "prepare" : "yarn build",
+  "prepublishOnly" : "yarn test && yarn run lint",
   "scripts": {
     "lint": "eslint './src/**/*.{js,ts,tsx}'",
     "test": "jest",
