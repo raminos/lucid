@@ -1,6 +1,6 @@
 {
   "name": "@raminos/lucid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JS logger that logs the whole prototype chain of an object",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
